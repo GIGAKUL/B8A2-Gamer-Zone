@@ -9,6 +9,7 @@
   /*------------- Header Styles ------------- */
 
   /*-------------Navbar Styles ------------- */
+
   .navbar-container {
     flex-direction: column;
     padding: 103px 0 78px;
@@ -50,7 +51,35 @@
   /*------------- End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
+ main{
+    width: auto;
+ }
+.online-games{
+    padding: 0 15px;
+
 }
+  .online-game-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 15px;
+    
+  }
+.card img{
+    width: 100%;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
 
 /* -------------- Tablet Responsive Styles------------- */
 
@@ -98,4 +127,29 @@
   /*-------------End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
+
+
+  main{
+    width: auto;
+ }
+
+  .online-game-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 15px;
+    gap: 15px;
+  }
+.card img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 }

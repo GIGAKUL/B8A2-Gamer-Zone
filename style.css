@@ -184,6 +184,10 @@ main {
 .online-game-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.card img{
+    width: 100%;
 }
 
 .card p {

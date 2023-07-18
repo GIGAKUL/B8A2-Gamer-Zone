@@ -69,47 +69,77 @@ h2 {
 /*-------------End Of Navabar Styles ------------- */
 
 /*-------------Banner Styles ------------- */
+/* Shared-button */
+.btn {
+  border-radius: 48px;
+  background: #ff42a5;
+  padding: 21px 40px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn2{
+background: #4EC5F7;
+}
+/* End of Shared-button */
 
-
-.banner{
-    padding: 0px 240px 0px ;
-    background-image: url(./images/Group\ 14.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* background-color: rgba(255, 0, 0, 0.175); */
-    
+.banner {
+  padding: 0px 240px 0px;
+  background-image: url("./images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.banner-content h2{
-    color: #0B0223;
-    font-size: 3rem;
-    font-weight: 600;
-    text-transform: uppercase;
+.banner-content h2 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-.banner-content strong{
-    text-align: center;
-    font-size: 95px;
-    font-style: normal;
-    font-weight: 800;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.banner-content strong {
+  text-align: center;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.banner-content ul{
-
+.banner-content ul {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-top: 24px;
+  margin-bottom: 41px;
 }
-.banner-container{
+.banner-content ul li{
+    margin-bottom: 17px;
+}
+.banner-button{
+    display: flex;
+    gap: 1.5rem;
+}
+.banner-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
+  }
+  
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* .banner-content ul li::before {
+  content: "";
+  background-image: url(./images/download.png);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+} */
+/* -------------------------------------------------------------------------------------------------------------------------- */
 
 
 /*-------------Banner Styles ------------- */
 
 /*-------------End Of Header Styles ------------- */
-
-
-
-

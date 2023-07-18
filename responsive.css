@@ -12,7 +12,7 @@
 
   .navbar-container {
     flex-direction: column;
-    padding: 103px 0;
+    padding: 103px 0 78px;
   }
 
   .navbar-logo {
@@ -25,18 +25,34 @@
 
   /*-------------End Of Navabar Styles ------------- */
 
-/*-------------End Of Header Styles ------------- */
+  .banner {
+    background-image: none;
+    padding: 0;
+  }
+  .banner-content {
+    background-image: url("./images/Group\ 14.png");
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-container img {
+    width: 100%;
+  }
+  .banner-container {
+    gap: 24px;
+  }
 
+  /*-------------End Of Header Styles ------------- */
 }
 
 /* -------------- Tablet Responsive Styles------------- */
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
-   /*------------- Header Styles ------------- */
+  /*------------- Header Styles ------------- */
 
   /*-------------Navbar Styles ------------- */
- 
-    .navbar-container {
+
+  .navbar-container {
     flex-direction: column;
     padding: 103px 0;
   }
@@ -45,8 +61,8 @@
     justify-content: center;
     margin-bottom: 62px;
   }
-  
+
   /*-------------End Of Navabar Styles ------------- */
 
-/*-------------End Of Header Styles ------------- */
+  /*-------------End Of Header Styles ------------- */
 }

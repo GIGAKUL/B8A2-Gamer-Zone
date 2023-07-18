@@ -11,10 +11,7 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
-/* body{
-    max-width: 1440px;
-    margin: 0 auto;
-} */
+
 a {
   text-decoration: none;
 }
@@ -25,9 +22,10 @@ h1,
 h2 {
   color: #0b0223;
 }
-/* Header Styles */
 
-/* navbar styles */
+/*------------- Header Styles ------------- */
+
+/*-------------Navbar Styles ------------- */
 
 .navbar-container {
   display: flex;
@@ -68,3 +66,50 @@ h2 {
   display: flex;
   gap: 1rem;
 }
+/*-------------End Of Navabar Styles ------------- */
+
+/*-------------Banner Styles ------------- */
+
+
+.banner{
+    padding: 0px 240px 0px ;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: rgba(255, 0, 0, 0.175); */
+    
+}
+.banner-content h2{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-content strong{
+    text-align: center;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-content ul{
+
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/*-------------Banner Styles ------------- */
+
+/*-------------End Of Header Styles ------------- */
+
+
+
+

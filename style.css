@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Shared Styles */
+:root {
+  --primary-color: #ff42a5;
+  --secondary-color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+/* body{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2 {
+  color: #0b0223;
+}
+/* Header Styles */
+
+/* navbar styles */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 38px 240px;
+}
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3c354f;
+  font-size: 1.125rem;
+  font-weight: 500;
+  gap: 2rem;
+}
+.follow-us {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 8px;
+  background-color: rgba(11, 2, 35, 0.1);
+  padding: 16px 24px;
+}
+.navbar-logo h2 {
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+.span1 {
+  color: var(--primary-color);
+}
+.list-social-icon {
+  display: flex;
+  gap: 1rem;
+}

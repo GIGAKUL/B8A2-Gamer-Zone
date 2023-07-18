@@ -1,0 +1,27 @@
+/* -------------- Mobile Responsive Styles------------- */
+
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    padding: 103px 0;
+  }
+
+  .navbar-logo {
+    justify-content: center;
+    margin-bottom: 62px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+
+
+
+}
+
+/* -------------- Mobile Responsive Styles------------- */
+

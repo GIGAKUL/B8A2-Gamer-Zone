@@ -9,7 +9,6 @@
   /*------------- Header Styles ------------- */
 
   /*-------------Navbar Styles ------------- */
-
   .navbar-container {
     flex-direction: column;
     padding: 103px 0 78px;
@@ -22,9 +21,9 @@
   .menu {
     flex-direction: column;
   }
-
   /*-------------End Of Navabar Styles ------------- */
 
+  /*-------------Banner Styles ------------- */
   .banner {
     background-image: none;
     padding: 0;
@@ -48,6 +47,7 @@
   .banner-container {
     gap: 24px;
   }
+  /*------------- End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
 }
@@ -63,6 +63,11 @@
     flex-direction: column;
     padding: 103px 0;
   }
+
+  /*-------------End Of Navabar Styles ------------- */
+
+  /*-------------Banner Styles ------------- */
+
   .banner {
     background-image: none;
     padding: 0;
@@ -90,8 +95,7 @@
     justify-content: center;
     margin-bottom: 62px;
   }
-
-  /*-------------End Of Navabar Styles ------------- */
+  /*-------------End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
 }

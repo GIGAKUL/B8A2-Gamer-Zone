@@ -22,7 +22,14 @@ h1,
 h2 {
   color: #0b0223;
 }
-
+.span2 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
 /*------------- Header Styles ------------- */
 
 /*-------------Navbar Styles ------------- */
@@ -69,6 +76,7 @@ h2 {
 /*-------------End Of Navabar Styles ------------- */
 
 /*-------------Banner Styles ------------- */
+
 /* Shared-button */
 .btn {
   border-radius: 48px;
@@ -123,7 +131,6 @@ h2 {
   gap: 1.5rem;
 }
 .banner-container {
- 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,6 +147,33 @@ h2 {
 } */
 /* -------------------------------------------------------------------------------------------------------------------------- */
 
-/*-------------Banner Styles ------------- */
-
+/*-------------End of Banner Styles ------------- */
 /*-------------End Of Header Styles ------------- */
+
+/*------------- Main  Styles ------------- */
+main {
+  width: 1440px;
+  margin: 0 auto;
+}
+/*------------- End  of Main  Styles ------------- */
+
+/*------------- Online game's Styles ------------- */
+.online-games {
+  margin-top: 120px;
+}
+.online-games h2 {
+  color: #0b0223;
+  text-align: center;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.online-games p {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/*-------------End of Online game's Styles ------------- */

@@ -80,8 +80,8 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
 }
-.btn2{
-background: #4EC5F7;
+.btn2 {
+  background: #4ec5f7;
 }
 /* End of Shared-button */
 
@@ -115,19 +115,20 @@ background: #4EC5F7;
   margin-top: 24px;
   margin-bottom: 41px;
 }
-.banner-content ul li{
-    margin-bottom: 17px;
+.banner-content ul li {
+  margin-bottom: 17px;
 }
-.banner-button{
-    display: flex;
-    gap: 1.5rem;
+.banner-button {
+  display: flex;
+  gap: 1.5rem;
 }
 .banner-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* -------------------------------------------------------------------------------------------------------------------------- */
 /* .banner-content ul li::before {
   content: "";
@@ -138,7 +139,6 @@ background: #4EC5F7;
   margin-right: 5px;
 } */
 /* -------------------------------------------------------------------------------------------------------------------------- */
-
 
 /*-------------Banner Styles ------------- */
 

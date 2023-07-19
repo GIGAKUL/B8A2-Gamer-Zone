@@ -53,7 +53,7 @@
   /*-------------End Of Header Styles ------------- */
 
   main {
-    width: auto;
+    max-width: auto;
   }
 
   /*------------- Online game's Styles ------------- */
@@ -88,7 +88,7 @@
     text-align: center;
   }
   .play-instantly-img img {
-    width: 100%;
+    width: 70%;
   }
   .play-instantly-container2 {
     flex-direction: column;
@@ -99,44 +99,46 @@
   }
   .play-instantly-img .relative-img {
     position: absolute;
-    right: 182px;
-    width: 50%;
+    right: 254px;
+    width: 35%;
     top: 227px;
     z-index: 1;
+  }
+  .play-instantly-img {
+    text-align: center;
   }
   .play-instantly-img .relative-img2 {
     top: 208px;
     position: absolute;
     z-index: 1;
-    left: 182px;
-    width: 50%;
+    left: 255px;
+    width: 35%;
   }
   /* End of Play instantly styles */
 
   /* ----------------- Action styles-------------- */
-  .action {
+  .category {
     margin-top: 143px;
     margin-bottom: 118px;
   }
-  .action-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+  .category-container {
+    gap: 5px;
   }
 
   .btn3 {
-    width: auto;
-    color: #0b0223;
     font-size: 13px;
-    gap: 10px;
-    padding: 5px 10px 5px 5px;
-    color: #0b0223;
-    font-size: 14px;
-    gap: 10px;
+    align-items: center;
+    font-size: 0.6rem;
+    gap: 5px;
+    flex-basis: 32%;
   }
   .btn3 img {
-    width: 40px;
+    width: 30px;
   }
+  .btn3:hover {
+    border: 1px solid var(--primary-color);
+  }
+
   /*----------------- End of Action styles-------------- */
 }
 
@@ -227,21 +229,47 @@
     width: auto;
   }
   .play-instantly-img img {
-    width: 100%;
+    width: 70%;
   }
   .play-instantly-img .relative-img {
     position: absolute;
-    right: 381px;
-    top: 377px;
+    right: 418px;
+    width: 35%;
+    top: 250px;
     z-index: 1;
-    width: 50%;
+  }
+  .play-instantly-img {
+    text-align: center;
   }
   .play-instantly-img .relative-img2 {
-    top: 381px;
+    top: 263px;
     position: absolute;
     z-index: 1;
-    left: 384px;
-    width: 50%;
+    left: 458px;
+    width: 35%;
   }
   /* End of Play instantly styles */
+
+   /* ----------------- Action styles-------------- */
+   .category {
+    margin-top: 143px;
+    margin-bottom: 118px;
+  }
+  .category-container {
+    gap: 5px;
+  }
+
+  .btn3 {
+    align-items: center;
+    font-size: 0.8rem;
+    flex-basis: 28%;
+  }
+  .btn3 img {
+    width: 50px;
+  }
+  .btn3:hover {
+    border: 1px solid var(--primary-color);
+  }
+
+  /*----------------- End of Action styles-------------- */
 }

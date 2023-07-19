@@ -37,12 +37,16 @@ p {
 /*------------- Header Styles ------------- */
 
 /*-------------Navbar Styles ------------- */
+nav{
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
+}
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  padding: 38px 240px;
+  padding: 38px ;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .navbar-logo {
   display: flex;
@@ -96,8 +100,11 @@ p {
   background: #4ec5f7;
 }
 /* End of Shared-button */
+.banner-container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .banner {
-  padding: 0px 240px 0px;
   background-image: url("./images/Group\ 14.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -106,7 +113,10 @@ p {
 .banner-content {
   text-align: start;
 }
-
+.banner-content li  img{
+  width: 24px;
+  
+}
 .banner-content h2 {
   color: #0b0223;
   font-size: 3rem;

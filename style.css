@@ -80,6 +80,10 @@ nav {
   display: flex;
   gap: 1rem;
 }
+.spangoat{
+font-size: 95px;
+font-weight: 800;
+}
 /*-------------End Of Navabar Styles ------------- */
 
 /*-------------Banner Styles ------------- */

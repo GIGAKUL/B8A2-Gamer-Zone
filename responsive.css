@@ -21,7 +21,7 @@
     flex-direction: column;
   }
   .banner-container {
-    max-width: auto;
+    max-width: 100%;
   }
   /*-------------End Of Navabar Styles ------------- */
 
@@ -33,6 +33,7 @@
   .banner-content {
     justify-content: center;
     display: grid;
+    grid-template-columns: repeat(1,100%);
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -62,7 +63,7 @@
 
   /*-------------End Of Header Styles ------------- */
   main {
-    max-width: auto;
+    max-width:100%;
   }
 
   /*------------- Online game's Styles ------------- */
@@ -105,19 +106,19 @@
   }
   .play-instantly-img .relative-img {
     position: absolute;
-    right: 254px;
+    right: 65%;
     width: 35%;
-    top: 227px;
+    top: 55%;
     z-index: 1;
   }
   .play-instantly-img {
     text-align: center;
   }
   .play-instantly-img .relative-img2 {
-    top: 208px;
+    top: 56%;
     position: absolute;
     z-index: 1;
-    left: 255px;
+    left: 65%;
     width: 35%;
   }
   /*---------------- End of Play instantly styles----------- */
@@ -186,7 +187,7 @@
   .navbar-container {
     flex-direction: column;
     padding: 103px 0;
-    max-width: auto;
+    max-width: 100%;
   }
   /*-------------End Of Navbar Styles ------------- */
 

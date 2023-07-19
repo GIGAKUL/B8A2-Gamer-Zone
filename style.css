@@ -112,8 +112,11 @@ nav {
 .banner-content {
   text-align: start;
 }
+.banner-container img {
+  width: auto;
+}
 .banner-content li img {
-  width: 24px;
+  max-width: 24px;
 }
 .banner-content h2 {
   color: #0b0223;

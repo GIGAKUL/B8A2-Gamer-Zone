@@ -27,8 +27,6 @@
     padding: 0;
   }
   .banner-content {
-    background-image: url("./images/Group\ 14.png");
-    background-repeat: no-repeat;
     justify-content: center;
     display: grid;
     background-size: cover;
@@ -46,11 +44,14 @@
     gap: 24px;
   }
   .banner2-content{
-    background: none;
-  }
-  .banner2-container {
-    flex-direction: column-reverse;
     text-align: center;
+  }
+  .btn-banner2 {
+    justify-content: center;
+  }
+ 
+  .banner2-container {
+    flex-direction: column-reverse;    
   }
   /*------------- End of Banner Styles ------------- */
 
@@ -181,7 +182,7 @@
     flex-direction: column;
     padding: 103px 0;
   }
-  /*-------------End Of Navabar Styles ------------- */
+  /*-------------End Of Navbar Styles ------------- */
 
   /*-------------Banner Styles ------------- */
   .banner {
@@ -189,8 +190,7 @@
     padding: 0;
   }
   .banner-content {
-    background-image: url("./images/Group\ 14.png");
-    background-repeat: no-repeat;
+    text-align: center;
     justify-content: center;
     display: grid;
     padding-top: 100px;
@@ -213,13 +213,17 @@
   }
 
   .banner2-content{
+    text-align: center;
     background: none;
   }
   .banner2-container {
     flex-direction: column-reverse;
     text-align: center;
   }
-
+  .btn-banner2 {
+    justify-content: center;
+  }
+ 
 
   /*-------------End of Banner Styles ------------- */
 

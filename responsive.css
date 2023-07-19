@@ -20,7 +20,7 @@
   .menu {
     flex-direction: column;
   }
-  .banner-container{
+  .banner-container {
     max-width: auto;
   }
   /*-------------End Of Navabar Styles ------------- */
@@ -47,16 +47,16 @@
   .banner-container {
     gap: 24px;
   }
-  .banner2-content{
+  .banner2-content {
     text-align: center;
     padding-bottom: 0;
   }
   .btn-banner2 {
     justify-content: center;
   }
- 
+
   .banner2-container {
-    flex-direction: column-reverse;    
+    flex-direction: column-reverse;
   }
   /*------------- End of Banner Styles ------------- */
 
@@ -219,7 +219,7 @@
     margin-bottom: 62px;
   }
 
-  .banner2-content{
+  .banner2-content {
     text-align: center;
     background: none;
     padding-bottom: 0;
@@ -231,7 +231,6 @@
   .btn-banner2 {
     justify-content: center;
   }
- 
 
   /*-------------End of Banner Styles ------------- */
 

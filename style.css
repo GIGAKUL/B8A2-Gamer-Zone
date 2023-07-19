@@ -11,7 +11,7 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
-a{
+a {
   text-decoration: none;
   cursor: pointer;
 }
@@ -96,7 +96,6 @@ p {
   background: #4ec5f7;
 }
 /* End of Shared-button */
-
 .banner {
   padding: 0px 240px 0px;
   background-image: url("./images/Group\ 14.png");
@@ -180,7 +179,6 @@ main {
   margin-top: 1rem;
   margin-bottom: 48px;
 }
-
 .online-game-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -189,17 +187,14 @@ main {
 .card img {
   width: 100%;
 }
-
 .card p {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
 }
-
 /*-------------End of Online game's Styles ------------- */
 
 /*----------------- Play instantly styles-------------- */
-
 .play-instantly-container {
   display: flex;
   justify-content: end;
@@ -223,14 +218,12 @@ main {
   font-weight: 400;
   line-height: 30px;
 }
-
 .relative-img {
   position: absolute;
   right: 466px;
   top: 357px;
   z-index: 1;
 }
-
 .play-instantly-container2 {
   display: flex;
   flex-direction: row-reverse;
@@ -257,7 +250,6 @@ main {
 /*--------------------- End of Play instantly styles----------- */
 
 /*----------------- category styles-------------- */
-
 .category {
   margin-top: 243px;
   margin-bottom: 118px;
@@ -268,7 +260,6 @@ main {
   justify-content: center;
   gap: 30px;
 }
-
 .btn3 img {
   width: 60px;
 }
@@ -289,9 +280,9 @@ main {
   border: 2px solid var(--primary-color);
   color: #f948b2;
 }
-
 /*----------------- End of category styles-------------- */
 
+/*----------------- Footer styles-------------- */
 footer {
   display: flex;
   justify-content: center;
@@ -299,57 +290,57 @@ footer {
   height: 636px;
   background: #0b0223;
 }
-
-
 .footer-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-.footer-logo h2{
-  color: #FFF;
+.footer-logo h2 {
+  color: #fff;
   font-size: 2.8125rem;
   font-weight: 700;
 }
-
-.footer-menu{
-  display: flex;
+.footer-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(1, auto);
   justify-content: center;
   gap: 60px;
   margin: 56px 0;
-
 }
 
-.footer-menu li > a{
-  color: #FFF;
-  font-size:1.125rem;
+.footer-menu li > a {
+  color: #fff;
+  font-size: 1.125rem;
   font-weight: 600;
-  
 }
-
-.footer-icons{
-  display: flex;
+.footer-icons {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: repeat(1, auto);
   justify-content: center;
   gap: 40px;
   margin-bottom: 64px;
 }
-
-.footer-list{
-  display: flex;
+.footer-list {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(1, auto);
   justify-content: center;
   gap: 60px;
   margin-bottom: 28px;
 }
-.footer-list li a{
+.footer-list li a {
   color: #ffffff99;
-font-size: 1rem;
-font-weight: 500;
+  font-size: 1rem;
+  font-weight: 500;
 }
-.footer-container small{
+.footer-container small {
   display: flex;
   justify-content: center;
   color: #ffffff99;
-font-size: 16px;
-font-weight: 500;
+  font: size 1rem;
+  font-weight: 500;
 }
+/*----------------- End of Footer styles-------------- */

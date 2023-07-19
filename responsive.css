@@ -5,16 +5,13 @@
     margin: 0;
     padding: 0;
   }
-
   /*------------- Header Styles ------------- */
 
   /*-------------Navbar Styles ------------- */
-
   .navbar-container {
     flex-direction: column;
     padding: 103px 0 78px;
   }
-
   .navbar-logo {
     justify-content: center;
     margin-bottom: 62px;
@@ -51,13 +48,11 @@
   /*------------- End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
-
   main {
     max-width: auto;
   }
 
   /*------------- Online game's Styles ------------- */
-
   .online-games {
     padding: 0 15px;
   }
@@ -69,11 +64,9 @@
   .card img {
     width: 100%;
   }
-
   /*-------------End of Online game's Styles ------------- */
 
   /* Play instantly styles */
-
   .play-instantly {
     padding: 15px;
     margin: auto;
@@ -114,9 +107,9 @@
     left: 255px;
     width: 35%;
   }
-  /* End of Play instantly styles */
+  /*---------------- End of Play instantly styles----------- */
 
-  /* ----------------- Action styles-------------- */
+  /* -----------------category styles-------------- */
   .category {
     margin-top: 143px;
     margin-bottom: 118px;
@@ -124,7 +117,6 @@
   .category-container {
     gap: 5px;
   }
-
   .btn3 {
     font-size: 13px;
     align-items: center;
@@ -139,7 +131,37 @@
     border: 1px solid var(--primary-color);
   }
 
-  /*----------------- End of Action styles-------------- */
+  /*----------------- End of category styles-------------- */
+
+  /*----------------- Footer styles-------------- */
+  .footer-menu {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 35px;
+  }
+  .footer-icons {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 64px;
+  }
+  .footer-list {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 38px;
+  }
+  .footer-container small {
+    padding: 0 100px;
+    text-align: center;
+  }
+  footer {
+    height: auto;
+  }
+  .footer-container {
+    padding: 142px 0 86px;
+  }
+  /*----------------- End of Footer styles-------------- */
 }
 
 /* -------------- Tablet Responsive Styles------------- */
@@ -148,16 +170,13 @@
   /*------------- Header Styles ------------- */
 
   /*-------------Navbar Styles ------------- */
-
   .navbar-container {
     flex-direction: column;
     padding: 103px 0;
   }
-
   /*-------------End Of Navabar Styles ------------- */
 
   /*-------------Banner Styles ------------- */
-
   .banner {
     background-image: none;
     padding: 0;
@@ -188,12 +207,10 @@
   /*-------------End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
-
   main {
     width: auto;
   }
   /*------------- Online game's Styles ------------- */
-
   .online-game-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -206,7 +223,6 @@
   /*-------------End of Online game's Styles ------------- */
 
   /* Play instantly styles */
-
   .play-instantly {
     padding: 15px;
     margin: auto;
@@ -250,15 +266,14 @@
   }
   /* End of Play instantly styles */
 
-   /* ----------------- Action styles-------------- */
-   .category {
+  /* ----------------- Action styles-------------- */
+  .category {
     margin-top: 143px;
     margin-bottom: 118px;
   }
   .category-container {
     gap: 5px;
   }
-
   .btn3 {
     align-items: center;
     font-size: 0.8rem;
@@ -270,6 +285,23 @@
   .btn3:hover {
     border: 1px solid var(--primary-color);
   }
-
   /*----------------- End of Action styles-------------- */
+
+  /*----------------- Footer styles-------------- */
+  .footer-menu {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 35px;
+  }
+  .footer-container small {
+    padding: 0 100px;
+    text-align: center;
+  }
+  footer {
+    height: auto;
+  }
+  .footer-container {
+    padding: 142px 0 86px;
+  }
+  /*----------------- End of Footer styles-------------- */
 }

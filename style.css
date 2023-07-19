@@ -135,6 +135,9 @@ p {
 
 .banner-content ul li {
   margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .banner-button {
   display: flex;

@@ -51,22 +51,69 @@
   /*------------- End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
- main{
-    width: auto;
- }
-.online-games{
-    padding: 0 15px;
 
-}
+  main {
+    width: auto;
+  }
+
+  /*------------- Online game's Styles ------------- */
+
+  .online-games {
+    padding: 0 15px;
+  }
   .online-game-cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 0 15px;
-    
   }
-.card img{
+  .card img {
     width: 100%;
+  }
+
+  /*-------------End of Online game's Styles ------------- */
+
+/* Play instantly styles */
+
+.play-instantly {
+  padding: 15px;
+  margin: auto;
 }
+.play-instantly-container{
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 74px;
+}
+.play-instantly-content{
+  text-align: center;
+}
+.play-instantly-img img{
+  width: 100%;
+
+}
+.play-instantly-container2{
+  flex-direction: column;
+  gap: 74px;
+}
+.play-instantly-content p{
+  width: auto;
+}
+.play-instantly-img .relative-img {
+  position: absolute;
+  right: 182px;
+  width: 50%;
+  top: 227px;
+  z-index: 1;
+}
+.play-instantly-img .relative-img2 {
+  top: 208px;
+  position: absolute;
+  z-index: 1;
+  left: 182px;
+  width: 50%;
+
+}
+/* End of Play instantly styles */
 
 
 
@@ -74,12 +121,6 @@
 
 
 }
-
-
-
-
-
-
 
 /* -------------- Tablet Responsive Styles------------- */
 
@@ -128,10 +169,10 @@
 
   /*-------------End Of Header Styles ------------- */
 
-
-  main{
+  main {
     width: auto;
- }
+  }
+  /*------------- Online game's Styles ------------- */
 
   .online-game-cards {
     display: grid;
@@ -139,17 +180,52 @@
     padding: 0 15px;
     gap: 15px;
   }
-.card img{
+  .card img {
     width: 100%;
+  }
+  /*-------------End of Online game's Styles ------------- */
+
+/* Play instantly styles */
+
+  .play-instantly {
+    padding: 15px;
+    margin: auto;
 }
+  .play-instantly-container{
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 74px;
+  }
+  .play-instantly-content{
+    text-align: center;
+  }
+ 
+  .play-instantly-container2{
+    flex-direction: column;
+    gap: 74px;
+  }
+  .play-instantly-content p{
+    width: auto;
+  }
+  .play-instantly-img img{
+    width: 100%;
+  
+  }
+  .play-instantly-img .relative-img {
+    position: absolute;
+    right: 381px;
+    top: 377px;
+    z-index: 1;
+    width: 50%;
+}
+.play-instantly-img .relative-img2 {
+  top: 381px;
+  position: absolute;
+  z-index: 1;
+  left: 384px;
+  width: 50%;
 
-
-
-
-
-
-
-
-
-
+}
+/* End of Play instantly styles */
 }

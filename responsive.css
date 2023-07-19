@@ -59,9 +59,13 @@
     flex-direction: column-reverse;
   }
 
-
+  .spangoat{
+    font-size: 8gi5px;
+    font-weight: 800;
+    }
   .banner-button{
     width: 100%;
+    flex-wrap: wrap;
   }
   /*------------- End of Banner Styles ------------- */
 

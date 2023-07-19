@@ -45,6 +45,13 @@
   .banner-container {
     gap: 24px;
   }
+  .banner2-content{
+    background: none;
+  }
+  .banner2-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
   /*------------- End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
@@ -204,6 +211,16 @@
     justify-content: center;
     margin-bottom: 62px;
   }
+
+  .banner2-content{
+    background: none;
+  }
+  .banner2-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+
   /*-------------End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */

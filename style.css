@@ -138,22 +138,19 @@ p {
   align-items: center;
   justify-content: space-between;
   text-align: right;
-
 }
-
-.banner2{
-  background-color: #FFF9FC;
+.btn-banner2{
+  display: flex;
+  justify-content: center;
 }
-
-
-
-
 .banner2-container{
   flex-direction: row-reverse;
   text-align: right;
 }
 .banner2{
-  background: none;
+  background: #FFF9FC;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .banner2-content h2{

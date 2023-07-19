@@ -137,8 +137,53 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-align: right;
+
 }
 
+.banner2{
+  background-color: #FFF9FC;
+}
+
+
+
+
+.banner2-container{
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.banner2{
+  background: none;
+}
+
+.banner2-content h2{
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.banner2-content p{
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; 
+  margin-top: 24px ;
+  margin-bottom: 32px ;
+}
+.span3{
+  color: #534C64;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 45px;
+}
+.banner2-content h4{
+  color: #534C64;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 45px;
+  margin-top: 24px;
+}
 /* -------------------------------------------------------------------------------------------------------------------------- */
 /* .banner-content ul li::before {
   content: "";
@@ -309,7 +354,6 @@ footer {
   gap: 60px;
   margin: 56px 0;
 }
-
 .footer-menu li > a {
   color: #fff;
   font-size: 1.125rem;

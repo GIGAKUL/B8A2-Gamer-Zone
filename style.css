@@ -339,7 +339,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 60px;
-  margin-bottom: 8px;
+  margin-bottom: 28px;
 }
 .footer-list li a{
   color: #ffffff99;
@@ -347,5 +347,9 @@ font-size: 1rem;
 font-weight: 500;
 }
 .footer-container small{
-  
+  display: flex;
+  justify-content: center;
+  color: #ffffff99;
+font-size: 16px;
+font-weight: 500;
 }

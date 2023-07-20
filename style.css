@@ -3,7 +3,6 @@
 /* Shared Styles */
 :root {
   --primary-color: #ff42a5;
-  --secondary-color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
 }
 * {
   margin: 0;
@@ -25,7 +24,6 @@ h2 {
 }
 .span2 {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 48px;
@@ -33,6 +31,10 @@ h2 {
 }
 p {
   color: #534c64;
+}
+.max-width {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 /*------------- Header Styles ------------- */
 
@@ -212,12 +214,6 @@ font-weight: 800;
 
 /*-------------End of Banner Styles ------------- */
 /*-------------End Of Header Styles ------------- */
-
-/*------------- Main  Styles ------------- */
-main {
-  max-width: 1440px;
-  margin: 0 auto;
-}
 /*------------- End  of Main  Styles ------------- */
 
 /*------------- Online game's Styles ------------- */
@@ -302,12 +298,10 @@ main {
   justify-content: end;
   align-items: center;
   gap: 265px;
+  margin-top: 120px;
 }
 .play-instantly-content {
   text-align: right;
-}
-.play-instantly {
-  margin: 120px 0 243px 0;
 }
 .play-instantly-content h2 {
   font-size: 3rem;
@@ -332,6 +326,8 @@ main {
   justify-content: end;
   align-items: center;
   gap: 265px;
+  margin-bottom: 243px;
+
 }
 .play-instantly-img {
   text-align: start;
@@ -353,8 +349,9 @@ main {
 
 /*----------------- category styles-------------- */
 .category {
-  margin-top: 243px;
-  margin-bottom: 118px;
+  padding-top: 120px;
+  padding-bottom: 118px;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .category-container {
   display: flex;
@@ -441,7 +438,7 @@ footer {
   display: flex;
   justify-content: center;
   color: #ffffff99;
-  font: size 1rem;
+  font-size:  1rem;
   font-weight: 500;
 }
 /*----------------- End of Footer styles-------------- */

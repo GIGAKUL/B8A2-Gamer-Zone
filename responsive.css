@@ -11,7 +11,6 @@
 
   .navbar-container {
     flex-direction: column;
-    max-width: auto;
   }
   .navbar-logo {
     justify-content: center;
@@ -23,12 +22,11 @@
   .banner-container {
     max-width: 100%;
   }
-  /*-------------End Of Navabar Styles ------------- */
+  /*-------------End Of Navbar Styles ------------- */
 
   /*-------------Banner Styles ------------- */
   .banner {
     background-image: none;
-    padding: 0;
   }
   .banner-content {
     justify-content: center;
@@ -40,12 +38,11 @@
   }
   .banner-container {
     flex-direction: column-reverse;
+    gap: 24px;
+
   }
   .banner-container img {
     width: 100%;
-  }
-  .banner-container {
-    gap: 24px;
   }
   .banner2-content {
     text-align: center;
@@ -55,12 +52,8 @@
     justify-content: center;
   }
 
-  .banner2-container {
-    flex-direction: column-reverse;
-  }
-
   .spangoat{
-    font-size: 8gi5px;
+    font-size: 85px;
     font-weight: 800;
     }
   .banner-button{
@@ -70,7 +63,7 @@
   /*------------- End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
-  main {
+  .max-width {
     max-width:100%;
   }
 
@@ -79,7 +72,6 @@
     padding: 0 15px;
   }
   .online-game-cards {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 0 15px;
   }
@@ -91,12 +83,9 @@
   /* Play instantly styles */
   .play-instantly {
     padding: 15px;
-    margin: auto;
   }
   .play-instantly-container {
     flex-direction: column;
-    justify-content: end;
-    align-items: center;
     gap: 74px;
   }
   .play-instantly-content {
@@ -108,6 +97,8 @@
   .play-instantly-container2 {
     flex-direction: column;
     gap: 74px;
+    margin-top: 143px;
+    margin-bottom: 143px;
   }
   .play-instantly-content p {
     width: auto;
@@ -124,24 +115,18 @@
   }
   .play-instantly-img .relative-img2 {
     top: 56%;
-    position: absolute;
-    z-index: 1;
     left: 65%;
     width: 35%;
   }
   /*---------------- End of Play instantly styles----------- */
 
   /* -----------------category styles-------------- */
-  .category {
-    margin-top: 143px;
-    margin-bottom: 118px;
-  }
+ 
   .category-container {
     gap: 5px;
   }
   .btn3 {
     font-size: 13px;
-    align-items: center;
     font-size: 0.6rem;
     gap: 5px;
     flex-basis: 32%;
@@ -215,13 +200,11 @@
   }
   .banner-container {
     flex-direction: column-reverse;
-    max-width: auto;
+    gap: 24px;
+
   }
   .banner-container img {
     width: 100%;
-  }
-  .banner-container {
-    gap: 24px;
   }
   .navbar-logo {
     justify-content: center;
@@ -229,12 +212,9 @@
   }
 
   .banner2-content {
-    text-align: center;
-    background: none;
     padding-bottom: 0;
   }
   .banner2-container {
-    flex-direction: column-reverse;
     text-align: center;
   }
   .btn-banner2 {
@@ -244,8 +224,8 @@
   /*-------------End of Banner Styles ------------- */
 
   /*-------------End Of Header Styles ------------- */
-  main {
-    width: auto;
+ .max-width{
+    max-width: 100%;
   }
   /*------------- Online game's Styles ------------- */
   .online-game-cards {
@@ -266,8 +246,6 @@
   }
   .play-instantly-container {
     flex-direction: column;
-    justify-content: end;
-    align-items: center;
     gap: 74px;
   }
   .play-instantly-content {
@@ -304,15 +282,10 @@
   /* End of Play instantly styles */
 
   /* ----------------- Action styles-------------- */
-  .category {
-    margin-top: 143px;
-    margin-bottom: 118px;
-  }
   .category-container {
     gap: 5px;
   }
   .btn3 {
-    align-items: center;
     font-size: 0.8rem;
     flex-basis: 28%;
   }

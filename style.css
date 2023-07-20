@@ -36,9 +36,7 @@ p {
   max-width: 1440px;
   margin: 0 auto;
 }
-ul li{
-  cursor: pointer;
-}
+
 /*------------- Header Styles ------------- */
 
 /*-------------Navbar Styles ------------- */
@@ -65,6 +63,11 @@ nav {
   font-size: 1.125rem;
   font-weight: 500;
   gap: 2rem;
+}
+.menu li {
+  color: #3C354F;
+font-size: 1.125rem;
+cursor: pointer;
 }
 .follow-us {
   display: flex;
